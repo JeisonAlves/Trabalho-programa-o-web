@@ -1,0 +1,64 @@
+/* Estilização no corpo do HTML, tipo de fonte, alinhamento e dimensões da margem superior*/
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    margin-top: 10px;
+}
+
+/* Estilização do título, cor do texto e alinhamento */
+h2{
+    color:#007bff ;
+    text-align: center;
+}
+
+/* Estilização do parágrafo, cor do texto e alinhamento */
+p{
+    color:darkslategray;
+    text-align:center;
+}
+
+/* Estilização do formulário, margem, largura, distância entre o conteúdo e as bordas, borda, arredondamento da borda */
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Estilização do botão, cor do texto, cor do fundo, arredondamento da borda, borda, distância entre o conteúdo e as bordas */
+button{
+    color:white;
+    background-color: #007bff;
+    border-radius: 10px;
+    border: solid white;
+    padding: 10px 20px;
+}
+
+/* Estilização da lista, retirado o simbolo da lista */
+ul{
+    list-style-type: none;
+}
+/* Estilização da classe, arredondamento da borda, distância entre o conteúdo e as bordas, cor de fundo, cor do texto, tamanho máximo, alinhamento do texto, tamanho da fonte */
+.titulo_principal{
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #007bff;
+    color: white;
+    max-width:auto;
+    text-align: center;
+    font-size: large;
+}
+
+/* Estilização do id, alinhamentos */
+#men{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* Estilização do id, alinhamento. */
+#lista_botao{
+    display: inline-flex;
+}
+
